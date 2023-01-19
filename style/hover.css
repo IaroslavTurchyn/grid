@@ -1,0 +1,22 @@
+.list_items{
+    position: relative;
+
+}
+.list_items:hover{
+    color:#EDA3B5;
+}
+
+.list_items::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    transition: .7s;
+    position: absolute;
+    background-color: #EDA3B5;
+    top: 42px;
+}
+
+ .list_items:hover::before {
+    width: 90%;
+    
+ }

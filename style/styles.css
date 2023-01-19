@@ -1,0 +1,543 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 722px;
+}
+.head {
+    width: 100%;
+    height: 153px;
+    background-color: #FFFFFF;
+    display:flex;
+    flex-direction: column;
+}
+
+.head_firstrow{
+    width: 100%;
+    display: flex;
+    padding-top: 27px;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo {
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    
+}
+.Logo a{
+    text-decoration: none;
+    color: #1B2437;
+}
+
+.nav_soc-icons {
+    width: 124px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.users_icons{
+    width: 28px;
+    height: 28px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+.head_secondrow {
+    width: 100%;
+    max-width:1440px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 24px;
+    
+    
+}
+
+.head_list {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+
+
+.list_items{
+    text-decoration: none;
+    margin-right: 80px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+}
+
+
+
+/* .head_list li:first-child a{
+    color: #EDA3B5;
+} */
+
+.header_section {
+    background: url(../image/hero.png) no-repeat;
+    width: 100%;
+    height: 561px;
+    padding-top: 103px;
+    padding-left: 164px;
+}
+
+.header_section h1{
+    width: 361px;
+    height: 134px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+    
+    
+}
+
+.header_section p{
+    width: 446px;
+    height: 90px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px; 
+    color: #FFFFFF;
+    margin-top: 13px;
+    margin-bottom: 34px;
+}
+
+.header_section button{
+    width: 255px;
+    height: 77px;
+    background: #1B2437;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+} 
+
+.main {
+    margin: 71px auto;
+    max-width: 1110px;
+}
+
+.sect_one {
+    width: 100%;
+    height: 458px;
+    display: grid;
+    grid-template-columns: 445px 303px 302px;
+    grid-template-rows: 225px 204px;
+    gap: 30px ;
+}
+.one {  
+    background-image:url(../image/women_collection_category.png) ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    max-width: 458px;
+    width: 100%;
+}
+
+.one h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-top: 268px;
+    padding-left: 32px;
+}
+
+.one p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-bottom: 8px;
+}
+
+.btn_popular {
+    width: 93px;
+    height: 30px;
+    color: #FFFFFF;
+    background:rgb(255, 255, 255, 0.4);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.two {
+    background: #EFEFF4;
+    border-radius: 16px;
+}
+
+.two p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+    padding-top: 53px;
+    padding-left: 22px;
+}
+
+.two h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+    padding-left: 22px;
+    
+}
+
+.three {
+    background: url(../image/dresses_category.png) no-repeat;
+    max-width: 302px;
+    width: 100%;
+    height: 225px;  
+}
+
+.three p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 53px;
+    padding-left: 39px;
+}
+
+.three h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-left: 39px;
+    width: 119px;
+    height: 45px;
+    }
+.four {
+    background:url(../image/denim_jackets_category.png) no-repeat;  
+    grid-column: 2/4;
+}
+
+.four p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+    padding-top: 64px;
+    padding-left: 22px;
+}
+
+.four h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+    padding-left: 22px;
+}
+
+.slider {
+    max-width:1110px ;
+    height: 313px;
+    margin-top: 30px; 
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+ 
+}  
+.slider_child{
+    display: flex;
+    flex:1;
+    align-items: center;
+    text-align: center;
+    padding: 17px;
+    }
+
+.slick-dots li button:before{
+    top: -36px;
+}
+
+.slick-dots li.slick-active button:before{
+color: #EDA3B5;
+font-size: 13px;
+}
+.h_section {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1B2437;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    }
+
+.sect_three {
+    width:100% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 487px 487px;
+    gap: 30px;
+
+}
+
+.cont_one {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+    position: relative;
+}
+h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    width: 325px;
+    height: 30px;
+    margin:  16px 1px 8px 24px;
+}
+
+.p_sect{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    width: 325px;
+    height: 60px;
+    margin: 8px 1px 27px 24px ;
+    
+}
+
+.cont_price{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.cont_price p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 29px;
+    padding-left: 24px;
+}
+
+.cont_btn{
+    width: 153px;
+    height: 58px;
+    left: 344px;
+    top: 2177px;
+    background: #1B2437;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+button:hover{
+    background-color: #5C5C5C;
+}
+.cont_btn:hover{
+    background-color: #EDA3B5;
+    transition: .7s;
+}
+
+.img_cont{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 16px;
+    right: 16px;
+    background: #FFFFFF;
+    opacity: 0.6;
+    border-radius: 50%;
+
+}
+
+.map_section{
+    width: 100%;
+    height: 658px;
+}
+.map_point{
+    width: 100%;
+    padding: 12px;
+    border: 0;
+    height: 511px;
+}
+
+.map_nav{
+    text-align: center;
+    margin-top: 27px;
+    background-color: #FFFFFF;
+}
+
+.map_nav_icons{
+    width: 100%;
+    display: flex;   
+}
+.map_tel,
+.map_address,
+.map_letter{
+    flex: 1;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    align-items: center;
+}
+
+.footer {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.main_footer {
+    width: 100%;
+    height: 333px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+
+.lady_sh{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 165px; */
+
+}
+
+.lady_sh h6{
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #1B2437;
+    padding-top: 32px;
+}
+
+.lady_sh p{
+
+    width: 255px;
+    height: 180px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C5C5C;
+    margin-top: 24px;
+}
+
+.soc_foot{
+    width: 100%;
+    height: 74px;
+    background: #E5E5EA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.foot_h{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 45px;
+    padding-bottom: 22px;
+}
+.desc ul li {
+    list-style-type: none;
+    
+}
+
+.desc ul li a {
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #8E8E93;
+}
+
+.desc ul li a:hover,
+.Logo a:hover
+.nav_soc-icons img:hover{
+    font-size: larger;
+}
+
+
+
+
+
+
