@@ -9,11 +9,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #F5F5F5;;
+}
 
 header {
     margin: 0 auto;
     max-width: 1440px;
-    height: 722px;
+   
 }
 .head {
     width: 100%;
@@ -97,11 +100,18 @@ header {
 } */
 
 .header_section {
-    background: url(../image/hero.png) no-repeat;
+    background: url(../image/hero.png)   no-repeat;
+    background-size: 100%;
     width: 100%;
     height: 561px;
     padding-top: 103px;
-    padding-left: 164px;
+    padding-left: 164px; 
+    padding-bottom: 118px;
+} 
+
+.header_desc{
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .header_section h1{
@@ -419,6 +429,8 @@ button:hover{
 .map_section{
     width: 100%;
     height: 658px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
 }
 .map_point{
     width: 100%;
@@ -430,7 +442,7 @@ button:hover{
 .map_nav{
     text-align: center;
     margin-top: 27px;
-    background-color: #FFFFFF;
+   
 }
 
 .map_nav_icons{
