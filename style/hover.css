@@ -6,7 +6,7 @@
     color:#EDA3B5;
 }
 
-.list_items::before{
+.list_items::after{
     content: "";
     width: 0;
     height: 3px;
@@ -16,7 +16,7 @@
     top: 42px;
 }
 
- .list_items:hover::before {
+ .list_items:hover::after {
     width: 90%;
     
  }
